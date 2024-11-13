@@ -2,4 +2,4 @@
 - [x] Bob learns by adding a new Memory to his memory map by processing an Event
 - [x] Bob knows if he has a memory indexed by a given id
 - [x] Bob can make a clone of Bob with his current memory and a new name
-- [ ] Clones diverge from the original Bob when they learn new memories
+- [x] Clones diverge from the original Bob when they learn new memories
