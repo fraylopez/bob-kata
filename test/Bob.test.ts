@@ -32,7 +32,6 @@ function expectKnowsHisName(bob: Bob, name: string) {
   expect(memory?.data).to.equal(name);
 }
 
-
 class BobTestApi {
   static bob(): Bob {
     return new Bob();

@@ -21,11 +21,8 @@ export class Bob {
     return clone;
   }
 
-
   private createMemory(event: Event): void {
     const memory = new Memory(event);
     this.memory.set(memory.id, memory);
   }
 }
-
-
