@@ -1,39 +1,28 @@
 {
+  "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
   "compilerOptions": {
-    "module": "NodeNext",
-    "target": "es2020",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": false,
-    "strict": true,
     "strictNullChecks": true,
-    "preserveConstEnums": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "sourceMap": false,
     "declaration": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
     "stripInternal": true,
     "outDir": "dist",
-    "allowJs": true,
-    "noImplicitAny": false,
     "noImplicitOverride": true,
-    "lib": [
-      "es2020",
-      "dom"
-    ],
     "typeRoots": [
       "node_modules/@types"
     ],
     "useUnknownInCatchVariables": false,
+    "emitDeclarationOnly": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "test/**/*"
   ],
   "exclude": [
     "node_modules"
   ],
   "ts-node": {
-    "esm": true
-  }
+    "esm": true, // «———— enabling ESM for ts-node
+  },
 }
