@@ -1,4 +1,5 @@
 - [x] Bob does not have any memory yet
 - [x] Bob learns by adding a new Memory to his memory map by processing an Event
 - [x] Bob knows if he has a memory indexed by a given id
-- [ ] Bob can make a copy of Bob with his current memory and a new name
+- [x] Bob can make a clone of Bob with his current memory and a new name
+- [ ] Clones diverge from the original Bob when they learn new memories

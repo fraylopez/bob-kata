@@ -20,7 +20,16 @@ it("Bob can create a clone of himself", () => {
   bob.learnFrom(BobTestBuilder.nameEvent());
 
   const bill = bob.clone();
+  expect(bill).to.be.not.equal(bob);
+});
+
+it("clones are a different person with different memories", () => {
+  const bob = BobTestBuilder.bob();
+  bob.learnFrom(BobTestBuilder.nameEvent());
+
+  const bill = bob.clone();
   bill.learnFrom(BobTestBuilder.nameEvent("Bill"));
+
   BobTestApi.expectKnowsHisName(bill, "Bill");
   BobTestApi.expectKnowsHisName(bob, "Bob");
 });
