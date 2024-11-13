@@ -1,3 +1,3 @@
 - [x] Bob does not have any memory yet
 - [x] Bob learns by adding a new Memory to his memory map by processing an Event
-- [ ] Bob knows if he has a memory indexed by a given id
+- [x] Bob knows if he has a memory indexed by a given id
