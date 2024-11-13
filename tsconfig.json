@@ -13,7 +13,8 @@
     "useUnknownInCatchVariables": false,
     "emitDeclarationOnly": true,
     "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "ignoreDeprecations": "5.0"
   },
   "include": [
     "src/**/*",
