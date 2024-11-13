@@ -5,12 +5,24 @@ import { Memory } from "../src/Memory.ts";
 
 
 it("Bob doesn't know much", () => {
-  const bob = new Bob();
+  const bob = BobTestApi.bob();
   expect(bob.knows("name")).to.be.undefined;
 });
 
 it('Bob learns a his name', () => {
-  const bob = new Bob();
-  bob.learnFrom(new Event("name", "Bob"));
+  const bob = BobTestApi.bob();
+  bob.learnFrom(BobTestApi.nameEvent());
   expect(bob.knows("name")).to.be.instanceOf(Memory);
 });
+
+
+class BobTestApi {
+  static bob(): Bob {
+    return new Bob();
+  }
+
+  static nameEvent(): Event {
+    return new Event("name", "Bob");
+  }
+
+}
