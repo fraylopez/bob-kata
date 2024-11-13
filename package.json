@@ -1,0 +1,20 @@
+{
+  "name": "bob-kata",
+  "version": "1.0.0",
+  "description": "Bob kata in TypeScript",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.9.0",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "type": "module"
+}
