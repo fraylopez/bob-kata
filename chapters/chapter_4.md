@@ -1,6 +1,7 @@
 ### Chapter 4
 
 > June 26, 2133
+
 > The scientist asks Bob to practice with the Roamers to get used to them.
 
 - [ ] Bob can move a Roamer to a given Position (x,y,z)

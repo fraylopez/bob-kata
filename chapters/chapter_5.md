@@ -1,6 +1,7 @@
 ### Chapter 5
 
 > June 26, 2133
+
 > The scientist tells Bob that he can perceive the world through the Roamers and that he can learn from the information they gather.
 
 - [ ] A Roamer can sense the world around it and store in an internal memory as Events.

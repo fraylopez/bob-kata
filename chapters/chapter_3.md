@@ -1,6 +1,7 @@
 ### Chapter 3
 
 > June 25, 2133
+
 > The scientist explains to Bob that he has no body, but that he can interact with the world through a computer interface that controls small atonomous IA robots called "ROAMers" (Remote Observation And Manipulation devices).
 
 - [ ] Bob can move a `Roamer` to a given `Position`

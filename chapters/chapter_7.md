@@ -1,6 +1,7 @@
 ### Chapter 7
 
 > August 17, 2133
+
 > Launch day
 
 - [ ] The Ship is Bob's physical support and he is integrated into the ship's computer. For most purposes, Bob is the Ship

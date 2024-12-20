@@ -1,6 +1,7 @@
 ### Chapter 2
 
 > June 25, 2133
+
 > Bob wakes up. A scientist explains to him that he is a clone of the original Bob and that he has been brought back to life using the memories stored in the original Bob's head.
 
 - [ ] Bob has the same memory he had before. He remembers the accident and the decision to store his head.
